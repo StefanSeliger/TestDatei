@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: rubik_vinyl;
+    src: url("../fonts/RubikVinyl-Regular.ttf");
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 10px 10px aqua;
+    letter-spacing: 20px;
+    word-spacing: 40px;
+}
+
+section article p {
+    font-family: rubik_vinyl;
+}
+
+section {
+    background-color: gray;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1670431667395-93114aff8545?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+}
+
+/* Pseudoklassen */
+div ul li:first-of-type {
+    color: green;
+}
+
+div ul li:nth-last-of-type(2) {
+    color: blue;
+}
+
+div ul li:last-of-type {
+    color: pink;
+}
+
+header h2 span {
+    font-weight: bold;
+}
+
+div p span {
+    font-weight: bold;
+}

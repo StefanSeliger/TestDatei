@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicht semantische Elemente und Einführung CSS</title>
+    <!-- external Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- internal Styles - erst später zeigen - So macht mans nicht!!! -->
+    <style>
+        h2 {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- kurze WH von semantischen Elementen -->
+    <!-- Inline CSS zeigen, aber darauf hinweisen, dass man es so nicht macht!!! -->
+    <header>
+        <h2 style="color: purple;">Nicht semantische HTML Elemente und CSS Einführung</h2>
+    </header>
+
+    <section>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque pariatur magnam consequatur
+                quibusdam fugiat tempore.</p>
+        </article>
+    </section>
+
+
+
+    <!-- Nicht semantische Elemente -->
+    <div>
+        <h2>Div: Dieser Container wird bspw. genutzt um Dinge zu gruppieren. Darunter fallen Bilder o.ä.</h2>
+        <p>Lorem <span>hallo</span> ipsum dolor sit amet consectetur adipisicing elit. Possimus omnis accusantium amet,
+            repellendus culpa
+            autem nostrum dolore eum unde ab?</p>
+    </div>
+
+    <div>
+        <!-- Block Element, nimmt die ganze Breite der Seite ein -->
+        <h2>Inline Elemente</h2>
+        <!-- noch ein paar Beispiele zeigen und dann mal in den Untersuchen Modus auf der Webseite gehen. -->
+        <!-- Inline Elemente, nehmen nur den Platz ihres Inhaltes ein -->
+        <span>Hallo Stefan</span>
+        <span>Hallo Manuel</span>
+        <span>Hallo Hasret</span>
+        <a href="https://www.w3schools.com/html/html_blocks.asp">Block und Inline Elemente</a>
+    </div>
+
+    <!-- Dann CSS erklären, 3 Arten -->
+    <div>
+        <h2>CSS Einführung</h2>
+        <ul>
+            <li>External CSS</li>
+            <li>Internal CSS</li>
+            <li>Inline CSS</li>
+        </ul>
+    </div>
+
+    <!-- um zu zeigen, wie das mit den pfaden in css ist. -->
+    <li>hallo</li>
+
+</body>
+
+</html>
